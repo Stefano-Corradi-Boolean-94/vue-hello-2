@@ -2,6 +2,11 @@ body{
   padding-bottom: 200px;
 }
 
+
+img{
+  width: 300px;
+}
+
 .rosso{
   color: red;
 }
@@ -16,4 +21,18 @@ body{
 }
 .sottolineato{
   text-decoration: underline;
+}
+
+.container-pizze{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
